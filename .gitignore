@@ -1,1 +1,44 @@
+# Dataset and extracted image catalogue
+data/
+archive.zip
+*.zip
+
+# Model checkpoints and embedding caches
+clip_checkpoints/
+clip_search_index/
+checkpoints/
+embeddings/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.npy
+*.npz
+
+# Hugging Face caches
+.cache/
+huggingface/
+
+# Python and Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
