@@ -44,7 +44,7 @@ These metrics evaluate the retrieval task directly. The diagonal CLIP logit is r
 
 ```text
 .
-├── clip_fashion_text_to_image_retrieval.ipynb
+├── notebook.ipynb
 ├── .gitignore
 ├── README.md
 └── requirements.txt
