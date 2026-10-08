@@ -1,8 +1,10 @@
 # Fine-Tuned CLIP for Fashion Text-to-Image Retrieval
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/094f72fc-d842-4298-b711-9f7b90533cc4" />
+
+
 A reproducible CLIP fine-tuning and text-to-image product retrieval project built on a fashion catalogue of **44,160** image–description pairs. The project fine-tunes [`openai/clip-vit-base-patch32`](https://huggingface.co/openai/clip-vit-base-patch32), caches normalized image embeddings, and evaluates strict image-level retrieval on a validation split.
 
-![Fine-tuning results](https://private-us-east-1.manuscdn.com/sessionFile/cuBIRRzEEW20LXWN9v8SZi/sandbox/v3ixeHnms21AU3E1YBENsT-images_1791475129606_na1fn_L2hvbWUvdWJ1bnR1L2NsaXAtZmFzaGlvbi10ZXh0LXRvLWltYWdlLXJldHJpZXZhbC9hc3NldHMvdHJhaW5pbmdfc3VtbWFyeQ.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvY3VCSVJSekVFVzIwTFhXTjl2OFNaaS9zYW5kYm94L3YzaXhlSG5tczIxQVUzRTFZQkVOc1QtaW1hZ2VzXzE3OTE0NzUxMjk2MDZfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwyTnNhWEF0Wm1GemFHbHZiaTEwWlhoMExYUnZMV2x0WVdkbExYSmxkSEpwWlhaaGJDOWhjM05sZEhNdmRISmhhVzVwYm1kZmMzVnRiV0Z5ZVEucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkzNDkxMjAwfX19XX0_&Key-Pair-Id=K2QY5QTL8JSY6C&Signature=MEQCIESOfVCR50nhbPiJvXFSu7OyyYgzFog~D7JQtrebs03TAiAlAiuhQDSEHmZuajChe4N8NWX1h1KINxZUMqh5ia1Pcw__)
 
 ## What this project does
 
@@ -42,10 +44,7 @@ These metrics evaluate the retrieval task directly. The diagonal CLIP logit is r
 
 ```text
 .
-├── assets/
-│   └── training_summary.png
-├── notebooks/
-│   └── clip_fashion_text_to_image_retrieval.ipynb
+├── clip_fashion_text_to_image_retrieval.ipynb
 ├── .gitignore
 ├── README.md
 └── requirements.txt
